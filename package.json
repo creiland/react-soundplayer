@@ -36,7 +36,7 @@
     "hoist-non-react-statics": "^2.3.1",
     "object-assign": "^4.1.1",
     "prop-types": "^15.6.0",
-    "soundcloud-audio": "^1.2.2"
+    "soundcloud-audio": "https://github.com/creiland/soundcloud-audio.js/tarball/master"
   },
   "deprecated": false,
   "description": "Create custom SoundCloud players with React",
