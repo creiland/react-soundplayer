@@ -1,5 +1,7 @@
 # <img src="http://www.officialpsds.com/images/thumbs/Soundcloud-Logo-psd47614.png" width="75" align="left">&nbsp;[react-soundplayer](http://labs.voronianski.com/react-soundplayer) 
-[![npm version](http://badge.fury.io/js/react-soundplayer.svg)](http://badge.fury.io/js/react-soundplayer) [![Download Count](http://img.shields.io/npm/dm/react-soundplayer.svg?style=flat)](http://www.npmjs.com/package/react-soundplayer) <a href="https://www.buymeacoffee.com/voronianski" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" height="20" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+[![npm version](http://badge.fury.io/js/react-soundplayer.svg)](http://badge.fury.io/js/react-soundplayer) 
+[![Dependency Status](http://david-dm.org/kosmetism/react-soundplayer.svg)](http://david-dm.org/kosmetism/react-soundplayer) 
+[![Download Count](http://img.shields.io/npm/dm/react-soundplayer.svg?style=flat)](http://www.npmjs.com/package/react-soundplayer)
 
 > Create highly-customizable SoundCloud (or any audio) players with React.js.
 
@@ -77,10 +79,10 @@ import { PlayButton, Timer } from 'react-soundplayer/components';
 import { withCustomAudio } from 'react-soundplayer/addons';
 
 // audio source
-const streamUrl = 'https://example.org/path/to/file.mp3';
+const streamUrl = 'https://s3-eu-west-1.amazonaws.com/react-soundplayer-examples/ksmtk-reborn-edit.mp3';
 
 // some track meta information
-const trackTitle = 'Great song by random artist';
+const trackTitle = 'Ksmtk - Reborn';
 
 const AWSSoundPlayer = withCustomAudio(props => {
   const { trackTitle } = props;
